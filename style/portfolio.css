@@ -38,11 +38,8 @@ body{
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png "), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right, bottom left;
-    background-size:contain;
-    padding-top:39px;
-    /* max-height: 100vh; */
-   
+    background-position: bottom right, top left; 
+    padding-top:39px; 
 }
 .nav-title{
     font-size:40px
@@ -92,6 +89,7 @@ nav li a{
 }
 .btn-margin{
     margin-right: 30px;
+
 }
 .profile-pic{
     width:575px;
@@ -233,4 +231,10 @@ textarea{
     width: 100%;
     padding:18px 300px 18px 30px;
     margin:10px 0px;
+}
+
+
+.fa-download,
+.fa-phone{
+    margin-right:10px;
 }
